@@ -1,13 +1,12 @@
 import React from "react";
 import Main from "./main";
-import Aside from "./aside";
-import Footer from "./footer";
+import Aside from "./../wrapper/aside";
+
 function Container() {
   return (
-    <div>
+    <div id="container">
       <Main />
       <Aside />
-      <Footer/>
     </div>
   );
 }
